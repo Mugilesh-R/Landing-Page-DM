@@ -10,15 +10,12 @@ body {
 header {
   background-color: #0f2c59;
 }
-header img {
-  max-height: 50px;
-   /* Makes dark logo white if needed */
-}
+
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
-    
-  height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1556761175-4b46a572b786') center/cover no-repeat;
+  height: 90vh;
   display: flex;
   align-items: center;
   color: white;
