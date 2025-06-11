@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #0f2c59;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1556761175-4b46a572b786') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Services */
+.service i {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* Footer */
+footer {
+  background-color: #0f2c59;
+}
