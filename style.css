@@ -8,16 +8,15 @@ body {
 
 /* Header */
 header {
-  background-color: #0f2c59;
+  background-color: #1e3e6d;
+  color: white;
 }
 header img {
   border-radius: 50%; /* Optional: Makes the logo round */
   max-height: 40px;
   margin-right: 10px;
 }
-header h4{
-  color: white;
-}
+
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -43,5 +42,5 @@ header h4{
 
 /* Footer */
 footer {
-  background-color: #0f2c59;
+  background-color: #1e3e6d;
 }
