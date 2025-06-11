@@ -10,7 +10,10 @@ body {
 header {
   background-color: #0f2c59;
 }
-
+header img {
+  max-height: 50px;
+  filter: brightness(0) invert(1); /* Makes dark logo white if needed */
+}
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
